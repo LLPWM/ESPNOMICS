@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "colPriceToWei",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "datafeed",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rawColPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractaddress",
+						"type": "address"
+					}
+				],
+				"name": "setDataFeedAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unstableColPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/USDSP-ORACLE.sol": "PriceOracle"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol": {
+			"keccak256": "0x8fdf84a1d60cf454027d36c1cb44023021f4f9cfae26288e3a7e0604a926e454",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a64569667bd0f2d6d77409c714e590570774ab502df34afadd436eb1e8cfa915",
+				"dweb:/ipfs/QmWKHE2AVdKRpXnpirTAnaBi43nCJfTfZTKUX39JuSoNDt"
+			]
+		},
+		"@openzeppelin/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x58b21219689909c4f8339af00813760337f7e2e7f169a97fe49e2896dcfb3b9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef8e012e946dec20e59f2d4446f4b44bb098f3fa8bac103b1b5112fff777447b",
+				"dweb:/ipfs/QmVTooKWcLkJ9W68yNX4MgdrbAKiAXwuRN9A7f4NkdcdtQ"
+			]
+		},
+		"tests/USDSP-ORACLE.sol": {
+			"keccak256": "0x87c97cc0ce49111bd3a47da6512b4873d9f28176495e54846edd0369f51c4111",
+			"license": "MIT LICENSE",
+			"urls": [
+				"bzz-raw://63a2efcfd1c1b424bbf1f36cdf530cc82c7dd52aee3aaf92a707809f342458ae",
+				"dweb:/ipfs/QmXygVdfD141yTRVPZLyQ2xHMYMC1Bz58FwGT5VZXa6DZX"
+			]
+		}
+	},
+	"version": 1
+}
